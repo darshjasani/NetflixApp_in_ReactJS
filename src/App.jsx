@@ -1,20 +1,13 @@
 import React from 'react'
 import Data from './Data';
 import Card from './Card';
+import Netflix from './Netflix';
+import AmazonPrime from './AmazonPrime';
 
+const favseries  = "netflix";
 const App = ()=>{
   return(
-    Data.map((val)=>{
-      return (
-          <Card
-            key={val.id}
-            imgsrc = {val.imgsrc}
-            title = {val.title}
-            name = {val.sname}
-            link = {val.link}
-           />
-      )
-  })
+    favseries === "netflix" ? <Netflix/> : <AmazonPrime />
   )
 };
 
