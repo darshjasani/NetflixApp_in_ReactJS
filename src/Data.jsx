@@ -2,7 +2,7 @@ const Data =[
     {
       id:'1',
       imgsrc : "https://wallpapercave.com/uwp/uwp1879033.jpeg",
-      title : "A Netflix Original Series",
+      title : "A Amazon Original Series",
       sname : "The 100",
       link : ""
     },
